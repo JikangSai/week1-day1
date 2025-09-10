@@ -36,11 +36,47 @@ nav {
   padding-top: 2px;
 }
 main {
+    margin: 50px;
 }
-
 main h1 {
-  color: rgb(129, 141, 179);
-  font-family: arial;
+    color: rgb(129, 141, 179);
+    font-family: arial;
+}
+table {
+    margin-top: 35px;
+}
+table, caption, th, td {
+  border: 1px solid #000; /* black border around table, header, and cells */
+}
+th, td {
+  width: 150px;       /* fixes each column width */
+  height: 35px;       /* fixes row height */
+  text-align: center; /* centers text horizontally */
+}
+caption {
+  text-transform: uppercase; /* makes all letters uppercase */
+  font-weight: 600;          /* semi-bold text (stronger than normal) */
+  height: 40px;              /* sets caption area height */
+  padding-top: 15px;         /* adds space above the caption text */
+  color: #753a30;            /* sets text color to a brown shade */
+}
+label {
+    display: block;
+    margin: 15px 0 0 0;
+}
+input {
+    width: 300px;
+}
+input[type="radio"] {
+  width: 25px;   /* makes radio buttons small, so they don’t stretch like text inputs */
+}
+textarea {
+  width: 300px;  /* makes textarea the same width as text inputs */
+}
+input[type="submit"] {
+  display: block;          /* makes it sit on its own line */
+  margin: 20px 0 10px 0;   /* adds space: 20px top, 10px bottom */
+  width: 100px;            /* makes the button 100px wide */
 }
 footer {
   height: 40px;
